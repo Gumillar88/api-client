@@ -46,3 +46,37 @@ echo json_encode($response);
 ```
 
 Example usage in Laravel:
+
+```php
+namespace App\Http\Controllers;
+
+use Glw\ApiClient\ApiClient;
+
+class ApiController extends Controller
+{
+    public function index()
+    {
+        $client = new ApiClient();
+
+        $response = $client->get('/track');
+        return response()->json($response);
+    }
+}
+```
+
+Example usage in CodeIgneter:
+
+```php
+use Glw\ApiClient\ApiClient;
+
+class ApiController extends CI_Controller
+{
+    public function index()
+    {
+        $client = new ApiClient();
+
+        $response = $client->get('/track');
+        echo json_encode($response);
+    }
+}
+```
