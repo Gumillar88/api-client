@@ -1,0 +1,19 @@
+{
+    "name": "glw/api-client",
+    "description": "A Composer library for handling API requests using cURL.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Glw\\ApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gumilar L Wijayadi",
+            "email": "gumilarlesmana@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
