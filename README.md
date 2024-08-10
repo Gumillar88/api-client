@@ -1,6 +1,6 @@
 # glw/api-client
 
-`glw/api-client` is a PHP library for handling API requests using cURL. It supports GET, POST, PUT, DELETE, and UPDATE operations.
+a PHP library for handling API requests using cURL. It supports GET, POST, PUT, DELETE, and UPDATE operations.
 
 ## Installation
 
